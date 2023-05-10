@@ -1,7 +1,7 @@
 # IMPACT
 Intelligent Machine for Patient Accrual and Classification Tasks. This is the parent project repository. For specific components, please visit one of the repositories listed below:
 
-* [API](https://github.com/OHNLP/impact-api) - An API for developers to implement custom IMPACT components. You will need to build this first for both the backend and middleware
+* [API](https://github.com/OHNLP/impact-api) - An API for developers to implement custom IMPACT components. You will need to build this first for both the backend and middleware. This repository also contains commonly used implementations of certain components (e.g., an OHDSI OMOP CDM data connector, and UMLS code resolution service)
 * [Backend](https://github.com/OHNLP/impact-backend/) - The Engine that performs clinical phenotyping based on 
 * [Middleware](https://github.com/OHNLP/impact-middleware/) - REST API provider, Phenotying definition management, and retention of query results and adjudication
 * [Frontend](https://github.com/OHNLP/impact-webapp) - A frontend web interface for IMPACT
